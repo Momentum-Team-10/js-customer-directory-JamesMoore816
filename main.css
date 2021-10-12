@@ -1,0 +1,51 @@
+* {
+    font-family: Helvetica;
+}
+
+#customer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer-card {
+    justify-content: space-evenly;
+    padding: 24px;
+    width: 200px;
+    text-align: center;
+    line-height: 6px;
+}
+
+.thumbnail{
+    /* border-radius: 50%; */
+    border-top-left-radius: 50%;
+    border-top-right-radius: 75%;
+    border-bottom-left-radius: 75%;
+    border-bottom-right-radius: 50%;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.email {
+    color: grey;
+    font-size: 11px;
+}
+
+.streetAddress {
+    font-size: 14px;
+}
+
+.cityStateZip {
+    font-size: 14px;
+}
+
+.DOB {
+    font-size: 14px;
+}
+
+.memberSince {
+    font-size: 14px;
+
+}
